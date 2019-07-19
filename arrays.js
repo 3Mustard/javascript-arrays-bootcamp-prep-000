@@ -20,7 +20,7 @@ function destructivelyAddElementToEndOfArray(array,element){
  return array;
 }
 
-function  accessElementInArray(array,index){
+function accessElementInArray(array,index){
   return array[index];
 }
 
@@ -29,4 +29,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array;
 }
 
-function
+function removeElementFromBeginningOfArray(array){
+  const newArray = array.slice(1);
+  return newArray;
+}
+
